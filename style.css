@@ -54,12 +54,34 @@ body{
     border: 1px solid black;
 }
 .containers{
-    display: flex; 
+    display: flex;
+    column-gap: 30px; 
 }
 .links{
+    display: block;
     width: 25%;
+    height: 340px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+.link{
+    padding: 20px;
+    margin: 30px;
+    background: white;
+    border-radius: 10px;
 }
 
+.link a{
+    text-decoration: none;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+.link:hover{
+    background: rgb(0, 47, 255);
+    color: white;
+}
 
 .image-width{
     width: 100%;
@@ -90,3 +112,5 @@ button{
 .text-tree{
     margin-right: 100px;
 }
+
+/* footer section css style */
