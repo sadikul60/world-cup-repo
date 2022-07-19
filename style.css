@@ -51,7 +51,6 @@ body{
     background-color: white;
     margin: 100px;
     border-radius: 10px;
-    border: 1px solid black;
 }
 .containers{
     display: flex;
@@ -114,3 +113,28 @@ button{
 }
 
 /* footer section css style */
+.footer-area{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+h3{
+    font-size: 45px;
+    padding: 60px 0px 30px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.text-four a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+.feild{
+    padding: 0px 30px 60px;
+    font-size: 30px;
+}
