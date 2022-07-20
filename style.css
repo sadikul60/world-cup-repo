@@ -129,7 +129,7 @@ button{
     color: black;
 }
 .text-tree{
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 /* ------------footer-area all section css style------------- */
@@ -207,7 +207,8 @@ h4{
 Responsive website css styles
 -------------------------------------- */
 /* ------------mobile screen website--------------- */
-@media only screen and (max-width:600px) {
+
+@media only screen and (max-width:570px) {
     body{
         background-color: pink;
         margin: 0;
@@ -324,13 +325,10 @@ h3{
 }
 
 }
-
-
-
 /* ----------------------------
 tablet device responsive website 
 --------------------------------*/
-@media only screen and (min-width:601px) and (max-width:800px) {
+@media only screen and (min-width:571px) and (max-width:768px) {
     body{
         background-color: gray;
         margin: 0;
@@ -357,6 +355,7 @@ tablet device responsive website
         background-color: gray;  
     }
     .main-container{
+        background-color: gray;
         margin: 30px;
         padding: 0px;
     }
@@ -370,8 +369,7 @@ tablet device responsive website
         background-color: gray;
     }
     
-/* -----------------------------
-blogs css style---------------  */
+/* -----------------------------blogs css style---------------  */
 .blogs{
     width: 100%;
     display: grid;
@@ -382,6 +380,17 @@ blogs css style---------------  */
 }
 .blog{
     background-color: white;
+}
+/* view all button */
+.views{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    border: none;
+}
+.view{
+    border: none;
 }
 .footer-area{
     width: 100%;
