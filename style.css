@@ -210,6 +210,7 @@ Responsive website css styles
 @media only screen and (max-width:600px) {
     body{
         background-color: pink;
+        margin: 0;
     }
     .container{
         width: 100%;
@@ -242,8 +243,10 @@ Responsive website css styles
     /* ------------containers css style-------------- */
     .containers{
         display: block;
-        background-color: pink;
-         
+        background-color: pink;  
+    }
+    .main-container{
+        margin: 30px;
     }
     
     .links{
@@ -274,6 +277,7 @@ blogs css style---------------  */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
     margin-bottom: 30px;
     background-color: pink;
 }
@@ -301,7 +305,24 @@ button{
 .text-tree{
     margin-right: 100px;
 }
+/* footer-area css style */
 .footer-area{
     width: 100%;
+    display: block;
+}
+.footer-link{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    row-gap: 20px;
+    font-size: 13px;
+}
+.feild{
+    color: white;
+    margin-bottom:  30px;
+    padding: 10px;
+}
+h3{
+    font-size: 25px;
 }
 }
