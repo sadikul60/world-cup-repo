@@ -10,29 +10,36 @@ body{
     color: rgb(161, 140, 140);
 }
 
-/* ------top-banner section css style-------- */
+/* ----------------------------------------
+top-banner section css style
+-------------------------------------------- */
+/* ------------container css style--------- */
 .container{
     height: 550px;
     background-color: black;
     margin: 100px;
     border-radius: 10px;
 }
+/* ----------top-banner css style------------- */
 .top-banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 350px;
     padding: 20px;
 }
+/* ------------banners css style------------- */
 .banners{
     color: white;
     padding: 50px;
 }
+/* ----------text all css style-------------- */
 .text-one{
     font-size: 55px;
 }
 .paragraph{
     font-size: 18px;
 }
+/* -----------link-btn css style----------- */
 .link-btn{
     margin-top: 15px;
     padding: 10px;
@@ -41,21 +48,28 @@ body{
     font-size: 22px;
     color: white;
 }
+/* ----------banner-img css style------------ */
 .banner img{
     height: 530px;
 }
 
 
-/* blogs section css style */
+/* ------------------------------------------
+blogs section css style
+---------------------------------------------- */
+/* -----------main-container css style------------ */
 .main-container{
     background-color: white;
     margin: 100px;
     border-radius: 10px;
 }
+/* ------------containers css style-------------- */
 .containers{
     display: flex;
     column-gap: 30px; 
 }
+/* Upcomming, All group, Blog section css style */
+/* -----------links css style----------- */
 .links{
     display: block;
     width: 25%;
@@ -64,45 +78,51 @@ body{
     border-radius: 10px;
     text-align: center;
 }
+/* ------------link css style------------ */
 .link{
     padding: 20px;
     margin: 30px;
     background: white;
     border-radius: 10px;
 }
-
+/* -------------link a css style------------ */
 .link a{
     text-decoration: none;
     color: red;
     font-size: 22px;
     font-weight: bold;
 }
+/* -----------link hover css style------------ */
 .link:hover{
     background: rgb(0, 47, 255);
     color: white;
 }
-
+/* -----------blogs images css style------------- */
 .image-width{
     width: 100%;
     padding-bottom: 10px;
 }
+/* -----------------blogs css style------------------ */
 .blogs{
     width: 75%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
 }
+/* ----------------blog css style----------------- */
 .blog{
     margin-bottom: 30px;
     padding: 0px 10px 30px 10px;
     box-shadow: 0px 2px 2px;
     border-radius: 5px;
 }
+/* --------------button css style--------------- */
 button{
     padding: 5px;
     font-size: 22px;
     border-radius: 5px;
 }
+/* -------------text all css style----------------- */
 .text-two{
     margin: 10px 0px 15px;
     font-size: 24px;
@@ -112,50 +132,89 @@ button{
     margin-right: 100px;
 }
 
-/* footer section css style */
+/* ------------footer-area all section css style------------- */
+/* ---------footer-area css style----------------- */
 .footer-area{
     text-align: center;
     color: white;
     background-color: black;
 }
+/* --------------h3 tag css style-------------- */
 h3{
     font-size: 45px;
     padding: 60px 0px 30px;
 }
-
+/* ------------footer-link css style------------ */
 .footer-link{
     display: flex;
     justify-content: center;
     padding: 30px;
 }
-
+/* --------------text-four a css style----------- */
 .text-four a{
     text-decoration: none;
     color: white;
     padding-right: 30px;
 }
+/* -------------feild css style----------- */
 .feild{
     padding: 0px 30px 60px;
     font-size: 30px;
 }
 
+/* view all button css style */
+.views{
+    text-align: center;
+    display: none;
+}
+.view{
+    padding: 10px;
+}
+.view-btn{
+    background: red;
+    padding: 15px;
+    color: white;
+}
 
 
 
-/* Upcomming Match page css style */
+
+/* ------------------------------------------
+Upcomming Match page css style
+-------------------------------------------- */
+/* ---------------flags css style-------------- */
 .flags{
     display: flex;
     align-items: center;
 }
+/* ------------flag css style------------- */
 .flag{
     width: 50%;
     padding: 10px;
 }
+/* ------------h4 css style------------ */
 h4{
     color: black;
 }
+/* --------------text-five css style----------- */
 .text-five{
     padding-top: 20px;
     text-align: center;
     color: black;
+}
+
+/* ----------------------------------
+Responsive website css styles
+-------------------------------------- */
+/* ------------mobile screen website--------------- */
+@media only screen and (max-width:600px) {
+    .container, .containers,{
+        width: 100%;
+    }
+    .top-banner, .blog{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction:  column;
+    }
+    
 }
