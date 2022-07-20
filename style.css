@@ -334,18 +334,20 @@ tablet device responsive website
     body{
         background-color: gray;
         margin: 0;
+        padding: 0;
     }
     .container{
         width: 100%;
         margin: 0px;
+        padding: 0;
     }
     
     .top-banner{
-        width: 100%;
+        width: 90%;
     }
     .top-banner{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         flex-direction:  column;
     }
 
@@ -356,6 +358,7 @@ tablet device responsive website
     }
     .main-container{
         margin: 30px;
+        padding: 0px;
     }
     
     .links{
@@ -379,6 +382,11 @@ blogs css style---------------  */
 }
 .blog{
     background-color: white;
+}
+.footer-area{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 }
     
