@@ -15,7 +15,7 @@ top-banner section css style
 -------------------------------------------- */
 /* ------------container css style--------- */
 .container{
-    height: 550px;
+    /* height: 550px; */
     background-color: black;
     margin: 100px;
     border-radius: 10px;
@@ -50,7 +50,7 @@ top-banner section css style
 }
 /* ----------banner-img css style------------ */
 .banner img{
-    height: 530px;
+    height: 104%;
 }
 
 
@@ -208,13 +208,100 @@ Responsive website css styles
 -------------------------------------- */
 /* ------------mobile screen website--------------- */
 @media only screen and (max-width:600px) {
-    .container, .containers,{
-        width: 100%;
+    body{
+        background-color: pink;
     }
-    .top-banner, .blog{
+    .container{
+        width: 100%;
+        margin: 0px;
+    }
+    .text-one{
+        font-size: 30px;
+    }
+    .link-btn{
+        padding: 5px;
+        border: none;
+        font-size: 16px;
+    }
+    .top-banner{
+        width: 70%;
+    }
+    .top-banner{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         flex-direction:  column;
     }
+    .banner img{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /* links css style */
+    /* Upcomming, All group, Blog section css style */
+    /* -----------links css style----------- */
+    /* ------------containers css style-------------- */
+    .containers{
+        display: block;
+        background-color: pink;
+         
+    }
     
+    .links{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: pink;
+    }
+    
+    .link{
+        padding: 10px;
+        margin: 20px;
+        background: white;
+        border-radius: 10px;
+    }
+   
+    .link a{
+        text-decoration: none;
+        color: red;
+        font-size: 17px;
+        font-weight: bold;
+    }
+/* -----------------------------
+blogs css style---------------  */
+.blogs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 30px;
+    background-color: pink;
+}
+
+.blog{
+    margin-bottom: 30px;
+    padding: 0px 10px 30px 10px;
+    box-shadow: 0px 2px 2px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.text-two{
+    margin: 10px 0px 15px;
+    font-size: 20px;
+    color: black;
+}
+.text-tree{
+    margin-right: 100px;
+}
+.footer-area{
+    width: 100%;
+}
 }
