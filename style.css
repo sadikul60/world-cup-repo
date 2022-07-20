@@ -238,9 +238,6 @@ Responsive website css styles
     }
 
     /* links css style */
-    /* Upcomming, All group, Blog section css style */
-    /* -----------links css style----------- */
-    /* ------------containers css style-------------- */
     .containers{
         display: block;
         background-color: pink;  
@@ -325,4 +322,63 @@ button{
 h3{
     font-size: 25px;
 }
+
 }
+
+
+
+/* ----------------------------
+tablet device responsive website 
+--------------------------------*/
+@media only screen and (min-width:601px) and (max-width:800px) {
+    body{
+        background-color: gray;
+        margin: 0;
+    }
+    .container{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .top-banner{
+        width: 100%;
+    }
+    .top-banner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction:  column;
+    }
+
+    /* links css style */
+    .containers{
+        display: block;
+        background-color: gray;  
+    }
+    .main-container{
+        margin: 30px;
+    }
+    
+    .links{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: gray;
+    }
+    
+/* -----------------------------
+blogs css style---------------  */
+.blogs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    margin-bottom: 30px;
+    background-color: gray;
+}
+.blog{
+    background-color: white;
+}
+}
+    
